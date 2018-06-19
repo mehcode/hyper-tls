@@ -15,7 +15,7 @@ futures = "0.1.21"
 native-tls = { git = "https://github.com/mehcode/rust-native-tls.git", rev = "96780f7b6f765930c0e5a6ba67586b90b897dd85" }
 hyper = "0.12"
 tokio-io = "0.1"
-tokio-tls  = { git = "https://github.com/aep/tokio-tls.git", branch="native-tls-0.2", default-features = false }
+tokio-tls  = { git = "https://github.com/mehcode/tokio-tls.git", rev="f28e1f39a85e6482af387254bb045f874c97ddee", default-features = false }
 
 
 [dev-dependencies]
